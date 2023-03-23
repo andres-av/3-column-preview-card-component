@@ -5,10 +5,10 @@ body{
     margin: 80px auto;
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 290px;
 }
 .card {
-    padding: 40px 62px 40px 50px;
+    padding: 40px 40px 40px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,38 +38,56 @@ body{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 0px 0px 0px 0px;
 }
 .ctaBtn {
     background-color: hsl(0, 0%, 95%);
-    border: none;
-    width: 150px;
-    padding: 15px 0px;
+    border: solid 2px hsl(0, 0%, 95%);
+    width: 140px;
+    padding: 10px 0px;
     border-radius: 25px;
     font-family: 'Lexend Deca', sans-serif;
+    margin-top: 20px;
+}
+.ctaBtn:hover {
+    color: hsl(0, 0%, 95%);
+    border: solid 2px hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 .ctaSedan {
     color: hsl(31, 77%, 52%);
 }
+.ctaSedan:hover{
+    background-color:hsl(31, 77%, 52%);
+}
 .ctaSuvs {
     color: hsl(184, 100%, 22%);
+}
+.ctaSuvs:hover{
+    background-color:hsl(184, 100%, 22%);
 }
 .ctaLuxury{
     color: hsl(179, 100%, 13%);
 }
+.ctaLuxury:hover{
+    background-color:hsl(179, 100%, 13%);
+}
 @media (min-width: 376px) {
     .cards {
-        width: 999px;
+        width: 870px;
         flex-direction: row;
     }
-    /* .card p {
-
-    } */
+    .card {
+        padding: 40px 62px 40px 50px;
+    }
     .card:first-child {
         border-radius: 10px 0px 0px 10px;
     }
     .card:last-child {
         border-radius: 0px 10px 10px 0px;
+    }
+    .ctaBtn {
+        margin-top: 80px;
     }
 }
