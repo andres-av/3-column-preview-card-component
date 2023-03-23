@@ -42,9 +42,9 @@ Users should be able to:
 
 ### What I learned
 
-I challenged myself to be pixel perfect while resolving this challenge, therefore the one of the difficulties I encounter was to adjust pagging, margins and text size perfectly. Specially while adjusting the text, I wanted my paragraphs lines to break at the same words as the example in both, mobile and desktop layouts.
+I challenged myself to be pixel perfect while resolving this challenge, therefore the one of the difficulties I encounter was to adjust padding, margins and text size perfectly. Specially while adjusting the text, I wanted my paragraphs lines to break at the same words as the example in both, mobile and desktop layouts.
 
-It also called my attention that the css is a little longer than what I expected it to be. I don't know if there could be ways to improving this and make it shorter/simpler and more maintainable (I guess I would have to rely on react to make components in order to avoid writing too much css on the same stylesheet).
+It also called my attention that the css is a little longer than what I expected it to be. I don't know if there could be ways for improving this and making it shorter/simpler and more maintainable (I guess I would have to rely on react to make components in order to avoid writing too much css on the same stylesheet).
 
 Specially some areas like the following, where I had to add extra css declarations just to make minimal changes:
 
